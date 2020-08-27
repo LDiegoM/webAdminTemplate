@@ -9,3 +9,9 @@ Implementa adminLTE como interfaz gráfica. Utiliza Identity para el manejo de s
 ## v0.0.0 - 26/08/2020
 
 - Solución + lib DimSys para encriptación y lectura de configuraciones + Web MVC base.
+
+# Información técnica
+
+## Identity Scaffolding:
+
+For setup and configuration information, see https://go.microsoft.com/fwlink/?linkid=2116645.
