@@ -15,3 +15,7 @@ Implementa adminLTE como interfaz gráfica. Utiliza Identity para el manejo de s
 ## Identity Scaffolding:
 
 For setup and configuration information, see https://go.microsoft.com/fwlink/?linkid=2116645.
+
+## Implementación de AdminLTE
+
+Seguir el siguiente [Link](https://dotnettec.com/how-to-integrate-adminlte-with-asp-net-core-3-1/?amp).
