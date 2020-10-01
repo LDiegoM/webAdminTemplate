@@ -8,7 +8,7 @@
     <title>AdminLTE 3 | Dashboard</title>
     <partial name="AdminLTE/_Styles" />
 </head>
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition sidebar-mini sidebar-collapse layout-fixed layout-footer-fixed">
     <div class="wrapper">
 
         <partial name="AdminLTE/_TopNavigation" />
@@ -18,14 +18,8 @@
             <div class="content-header">
             <div class="container-fluid">
                 <div class="row mb-2">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <h1 class="m-0 text-dark">@ViewData["Title"]</h1>
-                </div>
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">@ViewData["Title"]</li>
-                    </ol>
                 </div>
                 </div>
             </div>
@@ -38,6 +32,8 @@
             </section>
         </div>
 
+        <partial name="AdminLTE/_Footer" />
+
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">
             <div class="p-3">
@@ -46,8 +42,6 @@
             </div>
         </aside>
         <!-- /.control-sidebar -->
-
-        <partial name="AdminLTE/_Footer" />
 
     </div>
     <partial name="AdminLTE/_Scripts" />
