@@ -7,7 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Web.Areas.Identity.Data;
 using Web.Data;
-
+using Web.Models;
+/*
 [assembly: HostingStartup(typeof(Web.Areas.Identity.IdentityHostingStartup))]
 namespace Web.Areas.Identity
 {
@@ -21,10 +22,9 @@ namespace Web.Areas.Identity
                     options.UseSqlite(
                         context.Configuration.GetConnectionString("DefaultConnection")));
 
-                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
-                    .AddEntityFrameworkStores<WebIdentityDbContext>();
+                //services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<WebIdentityDbContext>();
 
-                services.Configure<IdentityOptions>(options => {
+                /*services.Configure<IdentityOptions>(options => {
                     // Default Password settings.
                     options.Password.RequireDigit = false;
                     options.Password.RequireLowercase = false;
@@ -32,9 +32,9 @@ namespace Web.Areas.Identity
                     options.Password.RequireUppercase = false;
                     options.Password.RequiredLength = 1;
                     options.Password.RequiredUniqueChars = 0;
-                });
+                });* /
 
             });
         }
     }
-}
+}*/

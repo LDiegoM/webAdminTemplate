@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Web.Models;
 
 namespace Web.Areas.Identity.Data
 {
-    public class WebIdentityDbContext : IdentityDbContext<IdentityUser>
+    public class WebIdentityDbContext : IdentityDbContext<ApplicationUser>
     {
         public WebIdentityDbContext(DbContextOptions<WebIdentityDbContext> options)
             : base(options)
