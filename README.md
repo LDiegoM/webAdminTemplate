@@ -20,6 +20,6 @@ For setup and configuration information, see https://go.microsoft.com/fwlink/?li
 
 Seguir el siguiente [Link](https://dotnettec.com/how-to-integrate-adminlte-with-asp-net-core-3-1/?amp).
 
-## Implementación de Identity Core para MCV
+## Implementación de Identity Core para MVC
 
 Repo en [Github](https://github.com/dotnet/aspnetcore/tree/master/src/Identity/samples/IdentitySample.Mvc).
