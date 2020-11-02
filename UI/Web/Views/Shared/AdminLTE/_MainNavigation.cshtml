@@ -6,10 +6,9 @@
 
 @{
     string controllerName = "";
-    try {
+    if (ViewContext.RouteData.Values.First().Key == "controller" || ViewContext.RouteData.Values.Last().Key == "controller") {
       controllerName = ViewContext.RouteData.Values["controller"].ToString();
     }
-    catch {}
 }
 
   <!-- Main Sidebar Container -->
